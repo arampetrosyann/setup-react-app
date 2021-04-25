@@ -1,0 +1,8 @@
+.root {
+  width: 266px;
+  padding: 11px 17px;
+  background: #ffffff;
+  border: 1.5px solid #000000;
+  border-radius: 45px;
+  outline: none;
+}

@@ -1,0 +1,16 @@
+@import "./fonts.css";
+
+.app {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin-top: 27px;
+  font-size: 34px;
+  font-weight: 420;
+}

@@ -1,0 +1,31 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+}
+
+.form {
+  display: flex;
+  margin-top: 25px;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  composes: root from "../Button/button.module.css";
+  margin-left: 8px;
+}
+
+.iconCircle {
+  margin-right: 6px;
+  font-family: icons;
+  color: #00d8ff;
+}
+
+.iconCircle:before {
+  content: "\e907";
+}
